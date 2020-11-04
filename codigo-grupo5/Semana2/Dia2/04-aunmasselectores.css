@@ -1,0 +1,18 @@
+/* Slectores de slaves/hijos a cualquier nivel*/
+
+ul li {
+    text-decoration: underline;
+    color: red;
+
+}
+/* selector de hujos de 1er nivel o slaves directos unicamente */
+ol > li {
+
+    color: steelblue;
+}
+
+/* Compartir estilos entre los elementos separados por la coma*/
+h1, h2 {
+
+    color: purple;
+}

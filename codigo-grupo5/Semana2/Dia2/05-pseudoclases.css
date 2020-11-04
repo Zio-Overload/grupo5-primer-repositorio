@@ -1,0 +1,50 @@
+
+/* primer child del elemento li*/
+li:first-child{
+    color: red;
+    text-decoration: underline;     
+}
+/* child posicion "3" del elemento li*/
+li:nth-child(3){
+    color: gray;
+    font-weight: bold;
+}
+/* last child*/
+li:last-child{
+    color: green;
+    
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightgrey;
+}
+.tabla1 tbody tr:nth-child(even){
+
+    background-color: salmon;
+}
+thead tr th:nth-of-type(1){
+    background-color: red;
+    color: white;
+}
+
+/* excluir un elemento específica con (usando ID)*/
+p:not(#excepcion){
+    background-color: seagreen;
+
+}
+
+/* Por atributos*/
+input[type="text"]{
+    border-radius: 5px;
+    background-color: turquoise;
+}
+
+/* hover */
+button:hover{
+    background-color: aqua;
+    color:white;
+}
+/* placeholder */
+input[type="number"]::placeholder{
+    color: brown;
+}

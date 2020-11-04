@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "halloween";
+    src: url("./Halloween\ Pumpkin.otf");
+}
+
+.titulo {
+    font-family: 'Bree Serif',serif;
+}
+h2{
+
+    font-family: "halloween" ;
+}
+.parrafo1{
+
+    text-align: center;
+    line-height: 120px;
+}
+.parrafo2{
+    font-family: 'Bree Serif';
+    font-weight: 100;
+    word-spacing: 12px;
+    font-size: 28px;
+    text-decoration: underline;
+    line-height: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
