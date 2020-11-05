@@ -1,0 +1,41 @@
+.ssection1{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+
+
+    background-color: #34ff50;
+    height: 300px;
+}
+.section2{
+
+    height: 500px;
+    background-color: lightgrey;
+    background-image: url(./image00016.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachmennt: fixed;
+    overflow:scroll;*/
+}
+.section3{
+
+    height: 1000px;
+    background-image:url(https://picsum.photos/300/300) ;
+    background-repeat: no-repeat;
+}
+.section4, .section5{
+
+    height: 500px;
+}
+.section4{
+    background-image: linear-gradient(to top, #f4f4f4,#6784aa);
+
+}
+.section5{
+
+
+    background-image: radial-gradient(circle,#dd4a3d, #45ff25);
+}

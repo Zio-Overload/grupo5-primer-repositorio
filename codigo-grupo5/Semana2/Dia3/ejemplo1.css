@@ -1,0 +1,51 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor{
+    width: 600px;
+    margin: 0 auto;
+
+}
+.btn-google{
+
+background-color: #4286f4;
+color: white;
+font-size: 16px;
+width: 100%;
+padding: 15px 0;
+margin: 20px 0 22px 0;
+border-radius: 10px;
+font-weight: bold;
+box-shadow: 3px 3px 5px black;
+}
+form > label{
+
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+form > input{
+    height: 40px;
+    background-color: #F3F3F4;
+    padding: 5px;
+    border-radius: 15px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+}
+input[type="submit"]{
+    width: 200px;
+    background-color: #EA4C89;
+    color: white;
+    font-weight: bold;
+    /*margin: 0  auto;
+    display: block;  para centrar el SIGN, averiguar sobre display block e inline*/
+
+}
+hr{
+    border: 1px solid lightgray;
+    margin-bottom: 30px;        
+
+}

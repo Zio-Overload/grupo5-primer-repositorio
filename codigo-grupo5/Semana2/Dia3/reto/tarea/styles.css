@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#mainFrame{
+
+    width: 800px;
+    height: 600px;
+    margin: 20px auto 0 auto;
+    /*background-color: blue;*/
+}
+#onlyForm{
+    width: 500px;
+}
+h1{
+    color: #B80C09;
+    font-family: 'Monoton', sans-serif;
+    font-weight: 10%;
+    margin-bottom: 30px;
+    margin-left: 4px;
+}
+#sideImg > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#sideImg {
+    float:right;
+    width: 250px;
+    height: 515px;
+}
+
+form > input{        
+        height: 35px;
+        border-radius: 12px;
+        border-width: 2px;
+        border-style: double;
+        border-color: ;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        background-image: linear-gradient(to top, rgba(53, 53, 53,0.15),rgba(254, 236, 238,0.15));    
+        color: black !important;
+        font-family:'Roboto';
+        font-weight: bold;
+        font-size: medium;
+        margin: 10px 0 2px 4px;
+        box-shadow: 0.5px 0.5px 0.5px 0.5px #FDCA40;
+            
+}
+form > button{
+
+    color: white;
+    font-weight: bold;
+    background-color: rgb(30, 32, 25);
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    margin: 15px 0 0 4px;
+    box-shadow: 1px 3px 3px 1px #5B5D5B;
+}
+form > button:nth-of-type(2){
+    margin-top: 35px;
+    width: 100%;
+    height:40px ;
+    background-color: #708DFF;
+    box-shadow: 2px 5px 5px 2px #5B5D5B;
+}
+form > button:nth-of-type(3){
+    width: 100%;
+    height: 40px;
+    background-color: rgba(253, 73, 157,0.9);
+    text-align: top;
+    box-shadow: 2px 5px 5px 2px #5B5D5B;
+}
+
+label{
+
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 6px;
+}
+label:hover{
+
+    color: #B80C09;
+    font-weight: bold;
+}
