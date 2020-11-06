@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+    background-color: coral;
+}
+header{
+    height: 80px;
+    background-image: linear-gradient(to left, crimson, purple);
+    color: white;
+}
+.principal{
+    margin: 50px auto 0 auto;
+    width: 50%;
+    height: 130px;
+    box-shadow: 0px 0px 20px gray;
+    border: 1px solid black;
+}
+.section1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /*POSITION RELATIVE ALWAYS USE THE START POSITION OF THE ELEMENT AS REFERECE, 
+    AND NEED MORE INSTRUCTIONS (TOP, LEFT, ETC)*/
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.section2{
+
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.section3{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    z-index: 100px;    
+}
+.fab {
+    color: white;
+    font-weight: bold;
+    background-color: mediumblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 8px;    
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 1px 1px 2px black;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+}
