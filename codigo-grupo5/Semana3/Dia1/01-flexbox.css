@@ -1,0 +1,71 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: grey;
+}
+
+.contenedor{
+    display: flex;
+    height: 60px;
+    background-color: darkred;
+    /* 
+        Jusity-content align elements on the main axis
+        Which is the main AXIS?
+        Depends directly on the flex-direction property.
+        flex-direction: row; (FILA)
+        this is the default AXIS when starting.
+        All flexible childs are align one next to another on the AXIS (X, because of ROW)
+    */
+    justify-content: space-evenly;
+    /*
+        Align-items align elements on the secondary AXIS
+    */
+    align-items: center;
+}
+.contenedor > div {
+    flex: 1;
+    width: 150px;
+    height: 20px;
+}
+div.hijo-2{
+    flex: 3;
+}
+.contenedor > div:nth-child(even){
+    background-color: #eee;
+}
+.contenedor > div:nth-child(odd){
+    background-color: #ccc;
+}
+.noticias{
+    background-color: fuchsia;
+    height: calc(100vh - 60px);
+    display: flex;
+}
+.noticias__menu{
+    width: 240px;
+}
+.noticias__contenedor{
+    flex:1;
+    display: flex; /* covierte a un hijo flex en un padre flex*/
+    /* otra propiedad que se asume POR DEFAULT es flex-wrap: no-wrap;
+    Significa que los elementos no hace overflow
+    */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*align-items: center;
+    /* ALign-content  Alinea a los hijos flexibles cuando estos hacen overflow*/
+    align-content: flex-start;
+    background-color: blue;
+}
+.noticias__noticia{
+
+    width: 200px;
+    background-color: aquamarine;
+    height: 200px;
+    margin: 2px 5px;
+}
