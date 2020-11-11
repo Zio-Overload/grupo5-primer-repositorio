@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-color: #edd18e;*/
+    font-family: 'Manrope';
+    min-height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    
+}
+.center{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+}
+.wrapper{
+    
+    display: flex;
+    width: 750px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: grey 10px 10px 10px;
+}    
+.wrapper__img{
+    overflow: hidden;
+    border-radius: 10px;
+} 
+
+.wrapper__img > img{
+    max-height: 100%;
+    max-width: 100%;
+    transform:scale(1.36) ;
+    margin: 25px 0px 0 40px;        
+}
+.wrapper__info {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 25px;
+    justify-content: space-between;
+    transform: scale(0.9);    
+}
+.wrapper__info__title{
+    font-weight: 700;
+    font-size: 24px;
+    color: hsl(217, 19%, 35%);        
+}
+.wrapper__info__descrip{
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(212, 23%, 69%);        
+}
+.wrapper__info__profile{
+    height: 45px;
+    width: 40px;
+    border-radius: 20px;
+}
+.wrapper__info__credits{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.wrapper__info__extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    padding-left: 10px;
+}
+.wrapper__info__name{
+    font-size: 14px;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    padding-left: 5px;
+}
+.wrapper__info__date{
+    font-size: 14px;
+    color: hsl(212, 23%, 69%);
+    padding-left: 5px;
+}
+.wrapper__info > button{
+    padding-top: 10px;
+}
+.wrapper__info__btn{
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;  /* how to round SVG files???*/
+}
+
