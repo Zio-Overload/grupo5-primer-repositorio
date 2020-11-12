@@ -5,6 +5,7 @@
 }
 body{
     background-color: #f2f2f2;
+    font-family: sans-serif;
 }
 .header{
     height: 60px;
@@ -33,7 +34,55 @@ body{
 
     background-color: #eee;
 }
-@media screen and (max-width:840px){
+.main{
+    max-width: 1440px;
+    border: 1px solid yellow;
+    margin: 0 auto;
+}
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+}
+.columna{
+    background-color: azure;
+    /*flex: 50%; truco para hacer un overflower bien interesante*/ 
+    flex: 25%;
+    padding: 1rem;
+}
+@media screen and (max-width: 1440px){
+    .main{
+    max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    
+    .main{
+        max-width: 840px;
+    }
+    .columna{
+        flex: 50%;
+    }
+}
+.card {
+
+    border: 1px solid #aaa;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: #ddd 0 2px 15px;
+}
+.card__title{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 840px){
+    .main{
+        margin: 0 1rem ;
+    }
+    .columna{
+        flex: 100%;
+    }
     .header__list{
         flex-direction: column;
         align-items: center;        
@@ -45,6 +94,6 @@ body{
     }
     .header{
         height: auto;
-    }
-    
+    }    
 }
+
